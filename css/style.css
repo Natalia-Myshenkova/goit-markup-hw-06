@@ -201,7 +201,7 @@ section {
   }
 
   .header-link:hover,
-  .header-link:focus {
+  .header-link:active {
     color: #404bbf;
   }
 
@@ -242,6 +242,7 @@ section {
 }
 
   .header-contact-info {
+    display: block;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -250,7 +251,7 @@ section {
   }
 
   .header-contact-info:hover,
-  .header-contact-info:focus {
+  .header-contact-info:active {
     color: #404bbf;
   }
 
@@ -458,6 +459,7 @@ section {
     background-position: center; 
     background-size: cover; 
     margin: 0 auto;
+    max-width: 320px;
   }
 
   @media screen and (min-resolution: 192dpi) {
@@ -506,6 +508,7 @@ section {
     background: 
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url("../images/tablet-first-section-people-office.jpg");
+      max-width: 768px;
   }
 
   .first-title {
@@ -534,6 +537,7 @@ section {
     background: 
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url("../images/desctop-first-section-people-office.jpg");
+      max-width: 1440px;
   }
 
   .first-title {
