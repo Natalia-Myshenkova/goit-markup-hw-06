@@ -767,7 +767,6 @@ section {
 
 .portfolio-img-wrapper img {
   display: block;
-  height: 280px;
 }
 
 .overlay-text {
@@ -832,18 +831,11 @@ section {
     max-width: 356px;
   }
 
-  .portfolio-img-wrapper img {
-    height: 300px;
-  }
 }
 
 @media screen and (min-width: 1158px) {
   .portfolio-group {
     gap: 48px 24px;
-  }
-
-  .team-list {
-    max-width: 360px;
   }
 }
 
